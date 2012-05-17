@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>twitter-server</artifactId>
+	<packaging>jar</packaging>
+	<name>Handstand Tech - Twitter Server</name>
+	<parent>
+		<groupId>com.handstandtech.twitter</groupId>
+		<artifactId>twitter</artifactId>
+		<version>1.0-SNAPSHOT</version>
+		<relativePath>../</relativePath>
+	</parent>
+	<dependencies>
+		<!-- General dependencies for standard applications -->
+		<dependency>
+			<groupId>com.handstandtech</groupId>
+			<artifactId>shared</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.handstandtech</groupId>
+			<artifactId>restclient-oauth</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.handstandtech.twitter</groupId>
+			<artifactId>twitter-model</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.handstandtech</groupId>
+			<artifactId>memcache</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.handstandtech.facebook</groupId>
+			<artifactId>model</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+</project>
